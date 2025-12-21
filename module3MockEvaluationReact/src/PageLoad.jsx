@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import ToPostCard from './ToPostCard'
-import PostsContext from './PostsContext'
+import { PostsContext } from './PostsContext'
 
 const PageLoad = () => {
     const { posts } = useContext(PostsContext)

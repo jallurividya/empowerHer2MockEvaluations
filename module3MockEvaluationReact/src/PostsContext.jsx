@@ -14,7 +14,7 @@ const PostProvider = ({children}) => {
         setPosts(posts.filter((post)=>post.id!=id))
     }
   return (
-    <PostsContext.Provider value={{ posts,readPosts,deletePost }}>
+    <PostsContext.Provider value={{ posts,deletePost }}>
         {children}
     </PostsContext.Provider>
   )
