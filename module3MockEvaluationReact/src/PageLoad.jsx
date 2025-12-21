@@ -4,7 +4,13 @@ import PostsContext from './PostsContext'
 
 const PageLoad = () => {
     const [posts,setPosts] = useState([])
-    const { readPosts } = useContext(PostsContext)
+    useEffect(()=> {
+            fetch('https://jsonplaceholder.typicode.com/posts')
+            .then(res => res.json())
+            .then(data => {
+                setPosts(data.slice(0,20))
+            })
+        })
     
   return (
     <div>
