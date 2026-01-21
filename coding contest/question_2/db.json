@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Mobile",
       "price": 20000,
-      "stock": 15
+      "stock": 18
     },
     {
       "id": 2,
@@ -34,14 +34,14 @@
       "quantity": 3,
       "totalAmount": 60000,
       "createdAt": "2026-01-21T13:59:26.228Z",
-      "status": "placed"
+      "status": "cancelled"
     },
     {
       "id": 3,
       "productId": 2,
       "quantity": 2,
       "totalAmount": 160000,
-      "status": "placed",
+      "status": "shipped",
       "createdAt": "2026-01-21T14:06:00.136Z"
     }
   ]
