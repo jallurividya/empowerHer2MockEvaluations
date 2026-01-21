@@ -9,15 +9,40 @@
     {
       "id": 2,
       "name": "laptop",
-      "price": 60000,
-      "stock": 10
+      "price": 80000,
+      "stock": 5
     },
     {
       "id": 3,
-      "name": "Earbuds",
-      "price": 1000,
-      "stock": 20
+      "name": "Air conditioner",
+      "price": 50000,
+      "stock": 8
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": 1,
+      "productId": 1,
+      "quantity": 3,
+      "totalAmount": 60000,
+      "status": "placed",
+      "createdAt": "2026-01-21"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "quantity": 3,
+      "totalAmount": 60000,
+      "createdAt": "2026-01-21T13:59:26.228Z",
+      "status": "placed"
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "quantity": 2,
+      "totalAmount": 160000,
+      "status": "placed",
+      "createdAt": "2026-01-21T14:06:00.136Z"
+    }
+  ]
 }
